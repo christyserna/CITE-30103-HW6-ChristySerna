@@ -1,0 +1,11 @@
+//what happens if #include <stdio.h> is removed from a program that calls for printf?
+//identify the stage that will fail & describe the error message you might expect
+
+/* Because the #include <stdio.h> is a part of the link section which instructs the compiler
+to link functions from the system library to the program it is being utilized in, the printf()
+function will not be properly recognized by the program as it has no system library to get said
+information from. (hopefully i explained that well). In this case, the stage that would fail would
+be the preprocessing & compiling code, as the preprocessing code will not entirely understand
+what is meant by printf(), leading to the creating of the object code in the compiling stage
+to be incorrect / not produce the desired results. If this happens, you can expect to get an error
+message regarding the fact that the printf function was not declared */
