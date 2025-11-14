@@ -1,0 +1,23 @@
+//explain step-by-step how a c program moves from source code to execution,
+// listing the stages & at least one possible error at each stage
+
+/* In order for a C program to move from the given source code to the execution stage, it has to go
+through the preprocessing stage, compilation stage, assembly stage, linking stage, and finally,
+the loading stage.
+
+  Preprocessing Stage: The stage in which the preprocessor program processes the code.
+  Possible Error: 
+
+  Compilation Stage: The stage in which the compiler translates the source code into assembly language.
+  Possible Error: 
+
+  Assembly Stage: The stage in which the assembler converts the assembly language into object code.
+  Possible Error:
+
+  Linking Stage: The stage in which the linker links the object code with the libraries,
+creating an executable file.
+  Possible Error:
+
+  Loading Stage: The stage in which the loader puts program in memory.
+  Possible Error: 
+*/
