@@ -1,0 +1,25 @@
+// find & correct all identifier naming errors, explaining which
+// rules have been violated for each
+
+int 1value = 10;      -----> fixed version: int value1 = 10;
+float avg-rate = 12.5; ----> fixed version: float avg_rate = 12.5;
+char Class = 'A'; ---------> fixed version: char _Class = 'A'
+
+As defined in Lecture 16, Slide 9, Naming Rules for Identifiers are as follows:
+- Must begin with either a letter or underscore
+- Must only consist of letters, digits, and undercores
+- Must NOT be a C reserved word
+- Case Sensitive
+- Only first 31 chars are significant
+
+the first identifier's (int 1value) naming error is that it begins with a number, which
+is not allowed as it goes against the rule that an identifier must start with either a letter
+or underscore, NOT a number. I would fix this issue by moving the 1 to the end of the identifier.
+
+the second identifier's (float avg-rate) naming error is that it includes a dash, which does not
+follow the restrictions of only consisting of letters, digits, and underscored. I would fix this issue by
+replacing the dash with an underscore instead.
+
+the third and final identifier's (Class) naming error is that it utilizes a reserved keyword, that of
+which is Class. I would fix this issue by inserting an underscore infront of the word Class so that
+it is not recognized as a reserved keyword.
