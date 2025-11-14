@@ -5,6 +5,7 @@
 #include <stdio.>                                             //LINK SECTION
 
 float area;
+float perimeter;
 float rectangleArea(int length, int width);                   //GLOBAL DECLARATION SECTION
 float rectanglePerimeter(int length, int width);
 
@@ -31,7 +32,7 @@ return 0;
 }
 
 int rectangleArea(int length, int width) {                                //SUBPROGRAM SECTION
-return width x length; 
+return (width * length); 
 }
 
 int rectanglePerimeter(int length, int width) {
