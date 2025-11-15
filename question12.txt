@@ -1,6 +1,12 @@
 // a developer expected res = 11 but got something else. Explain & fix this code.
 
-int a = 5, b =3, res;        //original code
-res = a+ b << 1;
+int a = 5, b = 3, res;        //original code
+res = a + b << 1;
 
-//idk how he got 11...
+/* since the original code has the bitwise left shift symbol, I believe the reason why
+they didn't get their desired output of 11 is because of improper syntax / operation precedence
+rules.
+
+int a = 5, b = 3, res;
+res = (a + b) << 1;
+
