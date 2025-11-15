@@ -6,18 +6,23 @@ through the preprocessing stage, compilation stage, assembly stage, linking stag
 the loading stage.
 
   Preprocessing Stage: The stage in which the preprocessor program processes the code.
-  Possible Error: 
+  Possible Error: Syntax errors from the code may cause the code to either be processed incorrectly
+  or not processed at all.
 
   Compilation Stage: The stage in which the compiler translates the source code into assembly language.
-  Possible Error: 
+  Possible Error: Syntax errors, even ones as small as forgetting a bracket or misspelling a variable
+  can cause the source code to be mistranslated into assembly language.
 
   Assembly Stage: The stage in which the assembler converts the assembly language into object code.
-  Possible Error:
+  Possible Error: Performance errors may occur at this stage if code is not concise or optimal
+  can result in the improper conversion of the object code
 
   Linking Stage: The stage in which the linker links the object code with the libraries,
-creating an executable file.
-  Possible Error:
+  creating an executable file.
+  Possible Error: If you get to the linking stage, you can still run into issues such as having
+  incorrectly linked libraries.
 
   Loading Stage: The stage in which the loader puts program in memory.
-  Possible Error: 
+  Possible Error: If memory was not allocated efficiently, you can even run into errors in the loading
+  stage, which in this case, would cause the loading stage to fail.
 */
