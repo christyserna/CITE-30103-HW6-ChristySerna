@@ -1,0 +1,6 @@
+// a developer expected res = 11 but got something else. Explain & fix this code.
+
+int a = 5, b =3, res;        //original code
+res = a+ b << 1;
+
+//idk how he got 11...
