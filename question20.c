@@ -5,19 +5,20 @@
 
 int main() {
 
-  int a;
+  int a, next;
   
-  printf("insert an integer(a) : ");
+  printf("insert integer(a) : ");
   scanf("%d", &a);
 
   do {
-   
+   scanf("%d", &a);
+    if ( a!= 0) {
+      next++;
+    }
   } 
-  while (a != 0) {
-    
-  };
-
-
+  while (a != 0)
+    printf("the amount of numbers entered was : %d, next);
+  
   
 return 0;
 }
