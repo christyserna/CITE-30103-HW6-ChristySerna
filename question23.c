@@ -13,7 +13,7 @@ int main() {
   do {
     
   }
-  while {
+  while 
     
   }
 
